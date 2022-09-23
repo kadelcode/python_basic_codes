@@ -16,10 +16,9 @@ min(list3)
 
 
 # append(obj) - appends an object to the list
-y = list1.append([23,44,'Good'])
+list1.append([23,44,'Good'])
+print(list1) # list1 = ['a', 'b', 'c', 'd',[23, 44, 'Good']]
 
 # count(obj) - returns count of how many times obj occurs in list
 g = list1.count("a")
-
-print(y)
 print(g)
